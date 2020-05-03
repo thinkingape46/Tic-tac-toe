@@ -24,7 +24,6 @@ def tic_tac_next():
     elif start == 'Yes':
       start_code()
 def start_code():
-    symbols = ['','']
     player1_symbol = input("Player1, Enter your symbol")
     if player1_symbol not in ['X','O']:
         print("Plese enter the symbol 'X' or 'O'")
