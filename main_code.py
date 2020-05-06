@@ -98,3 +98,4 @@ def play_game2():
                 tic_tac_next()
             else:
                 play_game()
+tic_tac()
