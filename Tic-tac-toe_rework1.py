@@ -3,7 +3,7 @@ from random import randint
 ''' This list stores symbol choice of players. '''
 
 board = ['#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
-symbol_choice = ['X', 'O']
+symbol_choice = [' ', ' ']
 
 '''clear_output clears the board.'''
 clear_output
@@ -100,7 +100,7 @@ def start_code():
 
 def play_game():
 
-    '''This function accepts input input from the player1, and finishes the game if player1 wins or draw. Otherwise it will move on to play_game2(). '''
+    '''This function accepts input input from the player1, and finishes the game if player1 wins or tie. Otherwise it will move on to play_game2(). '''
 
     player1_choice = input("Player1, please enter your choice of number: ")
 
@@ -143,7 +143,7 @@ def play_game():
 
 def play_game2():
 
-    '''This function accepts input input from the player1, and finishes the game if player1 wins or draw. Otherwise it will move on to play_game2().'''
+    '''This function accepts input input from the player1, and finishes the game if player1 wins or tie. Otherwise it will move on to play_game2().'''
     
     player2_choice = int(input("Player2, please enter your choice of number: "))        
 
